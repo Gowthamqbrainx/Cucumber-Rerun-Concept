@@ -1,0 +1,293 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-02-11T05:51:08.384Z",
+        "line": 11,
+        "name": "To verify the login functionality by passing the invalid credentials",
+        "description": "",
+        "id": "to-launch-the-browser-and-pass-any-url;to-verify-the-login-functionality-by-passing-the-invalid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10599329000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has to prepare all the prerequistie items",
+            "match": {
+              "location": "StepDefinition.user_has_to_prepare_all_the_prerequistie_items()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3749324000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has to enter the url in browser",
+            "match": {
+              "location": "StepDefinition.user_has_to_enter_the_url_in_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168089400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has to pass the invalid username \"abc@gmail.com\" and password \"Abcd@123\" in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc@gmail.com\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Abcd@123\"",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefinition.user_has_to_pass_the_invalid_username_and_password_in_login_page(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: user is in home page\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat qbrainx.stepDefinition.StepDefinition.user_has_to_click_the_login_button_and_verify_the_outcomes_of_the_test_datas(StepDefinition.java:47)\r\n\tat ✽.User has to click the login button and verify the outcomes of the test datas(file:src/test/resources/Features/SprintDemo.feature:7)\r\n",
+              "duration": 32952500,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User has to click the login button and verify the outcomes of the test datas",
+            "match": {
+              "location": "StepDefinition.user_has_to_click_the_login_button_and_verify_the_outcomes_of_the_test_datas()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T05:51:23.052Z",
+        "line": 12,
+        "name": "To verify the login functionality by passing the invalid credentials",
+        "description": "",
+        "id": "to-launch-the-browser-and-pass-any-url;to-verify-the-login-functionality-by-passing-the-invalid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9987194600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has to prepare all the prerequistie items",
+            "match": {
+              "location": "StepDefinition.user_has_to_prepare_all_the_prerequistie_items()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5383443800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has to enter the url in browser",
+            "match": {
+              "location": "StepDefinition.user_has_to_enter_the_url_in_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 174616700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has to pass the invalid username \"def@gmail.com\" and password \"Efgh@456\" in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"def@gmail.com\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Efgh@456\"",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefinition.user_has_to_pass_the_invalid_username_and_password_in_login_page(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: user is in home page\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat qbrainx.stepDefinition.StepDefinition.user_has_to_click_the_login_button_and_verify_the_outcomes_of_the_test_datas(StepDefinition.java:47)\r\n\tat ✽.User has to click the login button and verify the outcomes of the test datas(file:src/test/resources/Features/SprintDemo.feature:7)\r\n",
+              "duration": 79294900,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User has to click the login button and verify the outcomes of the test datas",
+            "match": {
+              "location": "StepDefinition.user_has_to_click_the_login_button_and_verify_the_outcomes_of_the_test_datas()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T05:51:38.680Z",
+        "line": 13,
+        "name": "To verify the login functionality by passing the invalid credentials",
+        "description": "",
+        "id": "to-launch-the-browser-and-pass-any-url;to-verify-the-login-functionality-by-passing-the-invalid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10699329300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has to prepare all the prerequistie items",
+            "match": {
+              "location": "StepDefinition.user_has_to_prepare_all_the_prerequistie_items()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3331011400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has to enter the url in browser",
+            "match": {
+              "location": "StepDefinition.user_has_to_enter_the_url_in_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 174450800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has to pass the invalid username \"ghi@gmail.com\" and password \"Ijkl@789\" in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ghi@gmail.com\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Ijkl@789\"",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefinition.user_has_to_pass_the_invalid_username_and_password_in_login_page(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: user is in home page\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat qbrainx.stepDefinition.StepDefinition.user_has_to_click_the_login_button_and_verify_the_outcomes_of_the_test_datas(StepDefinition.java:47)\r\n\tat ✽.User has to click the login button and verify the outcomes of the test datas(file:src/test/resources/Features/SprintDemo.feature:7)\r\n",
+              "duration": 82542600,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User has to click the login button and verify the outcomes of the test datas",
+            "match": {
+              "location": "StepDefinition.user_has_to_click_the_login_button_and_verify_the_outcomes_of_the_test_datas()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-02-11T05:51:52.970Z",
+        "line": 14,
+        "name": "To verify the login functionality by passing the invalid credentials",
+        "description": "",
+        "id": "to-launch-the-browser-and-pass-any-url;to-verify-the-login-functionality-by-passing-the-invalid-credentials;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10565217900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User has to prepare all the prerequistie items",
+            "match": {
+              "location": "StepDefinition.user_has_to_prepare_all_the_prerequistie_items()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4626621800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User has to enter the url in browser",
+            "match": {
+              "location": "StepDefinition.user_has_to_enter_the_url_in_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 193378500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User has to pass the invalid username \"jkl@gmail.com\" and password \"Mnop@101112\" in login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jkl@gmail.com\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Mnop@101112\"",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefinition.user_has_to_pass_the_invalid_username_and_password_in_login_page(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: user is in home page\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat qbrainx.stepDefinition.StepDefinition.user_has_to_click_the_login_button_and_verify_the_outcomes_of_the_test_datas(StepDefinition.java:47)\r\n\tat ✽.User has to click the login button and verify the outcomes of the test datas(file:src/test/resources/Features/SprintDemo.feature:7)\r\n",
+              "duration": 79104300,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User has to click the login button and verify the outcomes of the test datas",
+            "match": {
+              "location": "StepDefinition.user_has_to_click_the_login_button_and_verify_the_outcomes_of_the_test_datas()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To launch the browser and pass any URL",
+    "description": "",
+    "id": "to-launch-the-browser-and-pass-any-url",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/SprintDemo.feature",
+    "tags": []
+  }
+]
